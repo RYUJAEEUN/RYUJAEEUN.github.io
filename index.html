@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>질병관리본부</title>
+<style type="text/css">
+*{
+	padding : 0;
+	margin : 0;
+}
+li {
+	list-style-type : none;
+	display : inline;
+}
+.clear{
+	clear : both;
+}
+#page {
+	width : 1200px;
+	margin : auto; /* 오른쪽, 왼쪽을 자동으로 맞춰줌 */
+	border : 0px solid #bbbbbb;
+}
+header{
+	margin : 10px;
+	width : 1200px;
+}
+nav{
+	border-top : 1px solid lightgray;
+	border-bottom : 1px solid lightgray;
+}
+nav li{
+	padding-right : 5px;
+}
+#sub1 li{
+	display : inline-block;
+	text-align : center;
+	padding : 20px 22px 20px 23px;
+	margin-bottom : 25px;
+}
+#sub1 img:hover{
+	box-shadow : 5px 5px 10px gray;
+	transform : translate(5px, -5px);
+}
+#sub2 li{
+	display : inline-block;
+	padding : 0 15px 0 15px;
+	text-align : center;
+	width : 160px;
+	margin-bottom : 25px;
+}
+#sub2 img{
+	width : 80px;
+	height : 80px;
+	border-radius : 50% 50%;
+}
+#sub2 img:hover{
+	transform : scale(1.1);
+}
+#sub3{
+	width : 1200px;
+	padding : 13px;
+	margin-top : 20px;
+	margin-bottom : 20px;
+}
+#sub4{
+	float : left;
+	width : 1200px;
+	padding : 10px;
+	margin-bottom : 30px;
+	line-height : 180%;
+	background-color : white;
+}
+#sub4 img{
+	padding-right : 30px;
+}
+#gray{
+	color : gray;
+	font-size : 14px;
+}
+.img{
+	float : right;
+	padding-right : 50px;
+}
+#sub5{
+	width : 1200px;
+	background-color : #f0f1f5;
+	margin-top : 20px;
+}
+#sub5 li{
+	display : inline-block;
+	padding : 11px;
+	margin-bottom : 25px;
+	text-align : center;
+	overflow : hidden; /* 이미지 영역(너비, 높이)을 벗어나면 보이지 않음 */
+}
+#sub5 img{
+	width : 270px;
+	height : 180px;
+	display : block; /* 이미지 아래여백 제거*/
+}
+#sub5 img:hover{
+	transform : scale(1.1);
+	transition : transform 1s;
+}
+footer{
+	float : left;
+	width : 1170px;	
+	border : 0px solid lightgray;
+}
+#footer1{
+	font-size : 16px;
+	color : #515151;
+	padding : 15px;
+	border-top : 1px solid lightgray;
+}
+#footer1 li{
+	padding-right : 4px;
+}
+#footer1 span{
+	font-weight : bold;
+	color : black;
+	font-size : 18px;
+}
+#footer2{
+	width : 1170px;
+	background-color : #f0f1f5;
+	padding : 20px;
+	font-size : 14px;
+	font-weight : bold;
+	color : #515151;
+}
+#footer2 span{
+	color : #41AF39;
+}
+#footer2 li{
+	border : 1px solid black;
+	padding : 10px;
+}
+#footer2 div{
+	font-weight : normal;
+	font-size : 13px;
+}
+.right{
+	float : right;
+}
+.left{
+	float : left;
+}
+#menu{
+	position : fixed;
+	bottom : 20px;
+	right : 20px;
+}
+</style>
+</head>
+<body id="page">
+<header>
+<img src="./img/disease/header.JPG" width=1200>
+</header>
+<nav>
+	<ul>
+		<li><a href="disease.html" target="_blank"><img src="./img/disease/n1.jpg"></a></li>
+		<li><a href="accident.html" target="_blank"><img src="./img/disease/n2.jpg"></a></li>
+		<li><img src="./img/disease/n3.jpg"></li>
+		<li><img src="./img/disease/n4.jpg"></li>
+		<li><img src="./img/disease/n5.jpg"></li>
+		<li><img src="./img/disease/n6.jpg"></li>
+		<li><img src="./img/disease/n7.jpg"></li>
+		<li><a href="research.html" target="_blank"><img src="./img/disease/n8.jpg"></a></li>
+		<li><a href="health.html" target="_blank"><img src="./img/disease/n9.jpg"></a></li>
+	</ul>
+</nav>
+<section>
+<a href="http://www.cdc.go.kr/" target="_blank"><img src="./img/main.JPG" width=1200 title="새 창으로 열림"></a>
+	<ul id="sub1">
+		<li><img src="./img/s1.JPG" width=250> <br> 온열질환 건강수칙</li>
+		<li><img src="./img/s2.JPG" width=250> <br> 비브리오패혈증 예방수칙</li>
+		<li><img src="./img/s3.JPG" width=250> <br> 미세먼지 건강수칙</li>
+		<li><img src="./img/s4.JPG" width=250> <br> 코로나19 영상자료</li>
+	</ul>
+</section>
+<section>
+	<ul id="sub2">
+		<li><img src="./img/service1.JPG"> <br> 국가별질병정보</li>
+		<li><img src="./img/service2.JPG"> <br> 홍보자료</li>
+		<li><img src="./img/service3.JPG"> <br> 이달의건강소식</li>
+		<li><img src="./img/service4.JPG"> <br> 조직도·직원찾기</li>
+		<li><img src="./img/service5.JPG"> <br> 법령·지침·서식</li>
+		<li><img src="./img/service6.JPG"> <br> 공고/공시</li>
+	</ul>
+</section>
+<img src="./img/main2.JPG" width=1200>
+<section id="sub3">
+<img src="./img/banner1.JPG" width=390 height=300>
+<img src="./img/banner2.JPG" width=390 height=300>
+<img src="./img/banner3.JPG" width=390 height=300>
+</section>
+<section id="sub4">
+<img src="./img/sns.png"><br>
+<div class="img">
+	<img src="./img/sns2.JPG" width=100>
+	<img src="./img/sns3.JPG" width=100>
+	<img src="./img/sns4.JPG" width=100>
+	<img src="./img/sns5.JPG" width=100>
+</div>
+<h2>질병 관련 정보를<br>
+국민여러분께 신속히 제공하겠습니다</h2><br>
+<span id="gray">국가공중보건관리 중추기관으로서 국민 건강을 증진하고, 전문성·혁신·소통·신뢰를<br>
+기반으로 24시간 365일 최선을 다하겠습니다.</span><br><br>
+</section>
+<section id="sub5">
+	<ul>
+		<li><img src="./img/campaign1.JPG"> <br> <h4>진짜 힘은 손 씻을 때 생긴다!</h4> 마블 콜라보 질병예방 캠페인 </li>
+		<li><img src="./img/campaign2.JPG"> <br><h4> 중동지역을 방문하셨나요? </h4> 메르스 의심증상 발생 시 1339</li>
+		<li><img src="./img/campaign3.JPG"> <br> <h4>기침예절 지켜요! </h4> 기침예절은 감염병 예방의 기본수칙</li>
+		<li><img src="./img/campaign4.JPG"> <br> <h4>1339 질병관리본부 콜센터 </h4> 질병정보 궁금할 때 감염병이 의심될 때</li>
+	</ul>
+<br><br>
+</section>
+<footer id="footer1">
+<ul>
+<li><span>관련링크 < ></span></li>
+<li>임상진료지침 디지털 가이드라인</li>
+<li>KoGES</li>
+<li>질병관리본부국제학술지</li>
+<li>만성신장병코호트연구</li>
+<li>국민건강영양조사</li>
+<li>국립의과학지식센터</li>
+<li>보건복지통계</li>
+</ul>
+</footer>
+<footer id="footer2">
+<strong class="left">이용안내 <span>개인정보처리방침</span> 웹접근성품질인증 저작권정책</strong>
+<strong class="right">
+<ul>
+<li>질병관리본부 관련기관 <img src="./img/disease/footer.png"></li>
+<li>보건환경연구원 <img src="./img/disease/footer.png"></li>
+<li>보건복지부 및 소속기관 <img src="./img/disease/footer.png"></li>
+<li>보건복지부 산하기관 <img src="./img/disease/footer.png"></li>
+</ul>
+</strong>
+<br><br><br>
+<strong class="left"><div>(28159) 충북 청주시 흥덕구 오송읍 오송생명2로 187 오송보건의료행정타운내 질병관리본부 ☎전화번호1339<br>
+COPYRIGHT © 2019 질병관리본부 ALL RIGHTS RESERVED.</div></strong> 
+<strong class="right"><img src="./img/disease/footer2.JPG" width=500></strong>
+</footer>
+<span id="menu"><img src="./img/research/menu.JPG" height=380></span>
+</body>
+</html>
